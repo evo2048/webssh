@@ -1,0 +1,53 @@
+.center {
+  position: absolute;
+  background-color: #212121;
+  border: 3px solid #212121;
+  border-radius: 10%;
+  width: 30%;
+  height: 420px;
+  left: 35%;
+  right: 35%;
+  padding: 20px;
+  top: 25%;
+  text-align: center;
+}
+
+.button {
+  border-radius: 30px;
+  border: 0;
+  padding: 10px;
+  width: 20%;
+  margin-top: 14px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.bg-photo {
+  position: absolute;
+  background-image: url("/assets/images/profilebg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.delbutton {
+  border-radius: 30px;
+  border: 0;
+  padding: 5px;
+  margin-top: 4px;
+  margin-right: 15px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.termbutton {
+  color: red;
+}
+
+.overflw {
+  overflow: scroll;
+}
+

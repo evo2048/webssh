@@ -1,0 +1,53 @@
+<div class="bg-photo">
+  <div class="container">
+    <div id="addserver" class="form">
+      <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
+
+        <input type="hidden" id="serverId" name="serverId">
+
+        <label fir="serverName">Server Name: </label><br>
+        <input type="text" [(ngModel)] = "server.serverName" id="serverName" name="serverName" placeholder="Server Name" required class="input"><br>
+
+        <label for="serverIp">Server IP: </label><br>
+        <input type="text" [(ngModel)] = "server.serverIp" id="serverIp" name="serverIp" placeholder="Server IP" required #serverIp="ngModel" class="input"><br>
+
+        <label for="username">Server username: </label><br>
+        <input type="text" [(ngModel)]="server.username" id="username" name="username" placeholder="Server username" required #username="ngModel" class="input"><br>
+
+        <div>
+          <label for="withPKey">
+            <input type="radio" id="withPKey" name="withPKeyOrPass" [(ngModel)]="server.withPKey" [value]="'true'">
+            Private key
+          </label><br>
+          <label for="withPassword">
+            <input type="radio" id="withPassword" name="withPKeyOrPass" [(ngModel)]="server.withPKey" [value]="false">
+            Password
+          </label><br>
+        </div>
+
+        <div class="margins">
+          <div *ngIf="!server.withPKey">
+            <label for="password">Password: </label><br>
+            <input type="password" [(ngModel)]="server.password" id="password" name="password" placeholder="Password" required #password="ngModel" class="input"><br>
+          </div>
+
+          <div *ngIf="server.withPKey">
+            <label for="privateKey">Private key: </label><br>
+            <textarea [(ngModel)]="server.privateKey" rows="5" cols="30"  id="privateKey" name="privateKey" required></textarea>
+          </div>
+        </div>
+
+        <label for="port">Port: </label><br>
+        <input type="text" [(ngModel)]="server.port" id="port" name="port" placeholder="Server Port" required #port="ngModel" class="input"><br>
+
+        <label for="masterPassword">Master password: </label><br>
+        <input type="password" [(ngModel)]="server.masterPassword" id="masterPassword" name="masterPassword" placeholder="Master password" required #masterPassword="ngModel" class="input"><br><br>
+
+        <button type="submit" class="button">Add server!</button>
+
+      </form><br>
+      <p id="succes"></p>
+    </div>
+
+  </div>
+</div>

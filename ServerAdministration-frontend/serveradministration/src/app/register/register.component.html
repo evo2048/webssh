@@ -1,0 +1,18 @@
+<div class="bg-photo">
+    <div class="container">
+        <form [formGroup]="registerForm" class="form">
+            <input type="hidden" id="userId" name="userId">
+            <label for="username" class="label">Username:</label> <br>
+            <input type="text" class="input" formControlName="username" id="username" placeholder="Max 20 characters" required> <br>
+            <label for="email" class="label">Email:</label> <br>
+            <input type="text" class="input" formControlName="email" id="email" required> <br>
+            <label for="firstName" class="label">First Name:</label> <br>
+            <input type="text" class="input" formControlName="firstName" id="firstName" required> <br>
+            <label for="lastName" class="label">Last Name:</label> <br>
+            <input type="text" class="input" formControlName="lastName" id="lastName" required> <br>
+            <label for="password" class="label">Password:</label> <br>
+            <input type="password" class="input" formControlName="password" id="password" placeholder="Min 10 characters" required> <br>
+            <button (click)="register()" class="button">Register</button>
+        </form>
+    </div>
+</div>

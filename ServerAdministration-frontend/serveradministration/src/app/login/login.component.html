@@ -1,0 +1,12 @@
+<div class="bg-photo">
+	<div id="login" class="container">
+		<form [formGroup]="loginForm" class="form">
+			<label for="username" class="label">Username:</label><br>
+			<input id="username" class="input" type="text" formControlName="username"/> <br>
+			<label for="password" class="label">Password:</label><br>
+			<input id="password" class="input" type="password" formControlName="password"> <br>
+			<button (click)="login()" class="button">Submit</button>
+			<div id="wrongCreds"></div>
+		</form>
+	</div>
+</div>

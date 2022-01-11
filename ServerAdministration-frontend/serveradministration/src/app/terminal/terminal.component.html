@@ -1,0 +1,15 @@
+<div class="term">
+  <br>
+  <div *ngIf="connected()">
+      <ul *ngFor="let server of user?.servers">
+          <li>Name: {{server.serverName}} <button (click)="open(server.serverId)" class="button">Terminal!</button></li>
+      </ul>
+      <input type="password" [(ngModel)] = "server.masterPassword" id="masterPassword" name="masterPassword" placeholder="Master password" class="input" required>
+  </div>
+</div>
+<div class="center">
+  <div #terminal></div>
+  <div *ngIf="closeClient !== null" class="closebutton">
+    <button (click)="close()">End session</button>
+  </div>
+</div>

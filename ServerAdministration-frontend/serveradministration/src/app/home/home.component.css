@@ -1,0 +1,56 @@
+.func-center {
+    position: absolute;
+    background-color: #212121;
+    border: 3px solid #212121;
+    border-radius: 10%;
+    width: 245px;
+    height: 110px;
+    left: 43.5%;
+    right: 43.5%;
+    padding: 20px;
+    top: 48%;
+    text-align: center;
+}
+
+.title-style {
+    margin: 0;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 150px;
+}
+
+.title-center {
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 20%;
+    background-color: black;
+    position: absolute;
+    right: 35.7%;
+    left: 35.7%;
+    width: 625px;
+    height: 170px;
+    top: 15%;
+}
+
+.bg-photo {
+    position: absolute;
+    background-image: url("/assets/images/homebg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.button {
+    border-radius: 30px;
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-top: 14px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: 900;
+}

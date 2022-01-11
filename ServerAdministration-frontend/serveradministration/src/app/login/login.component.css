@@ -1,0 +1,80 @@
+.container {
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+    top: 42%;
+    width: 384px;
+    height: 226px;
+    left: 40%;
+    right: 40%;
+    background-color: #212121;
+}
+
+.bg-photo {
+    position: absolute;
+    background-image: url("/assets/images/loginbg.gif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.button {
+    border-radius: 30px; 
+    border: 0;
+    padding: 10px;
+    width: 60%;
+    margin: 3%;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: 900;
+}
+
+.input {
+    width: 40%;
+    border:white solid 5px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.label {
+    font-family: 'Cuprum', sans-serif;
+    font-size: large;
+}
+
+.form {
+    margin-top: 4%;
+}
+
+.loggedin {
+    font-size: 50px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/* .title-center {
+    text-align: center;
+    border-radius: 20%;
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    width: 30%;
+    height: 15%;
+    top: 18%;
+}
+
+.title-style {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #212121;
+} */

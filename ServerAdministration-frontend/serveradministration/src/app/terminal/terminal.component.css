@@ -1,0 +1,55 @@
+@import 'xterm/css/xterm.css';
+
+.term {
+  position: absolute;
+  background-color: #212121;
+  border: 3px solid #212121;
+  border-radius: 10%;
+  width: 245px;
+  height: 110px;
+  left: 43.5%;
+  right: 43.5%;
+  padding: 20px;
+  top: 30%;
+  text-align: center;
+}
+
+.button {
+  border-radius: 30px;
+  border: 0;
+  padding: 2px;
+  width: 40%;
+  margin-top: 14px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+}
+
+.input {
+  width: 50%;
+  border:white solid 5px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.center {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.closebutton {
+  border-radius: 30px;
+  border: 0;
+  padding: 2px;
+  width: 70%;
+  margin-top: 14px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+}

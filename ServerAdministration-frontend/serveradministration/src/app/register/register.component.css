@@ -1,0 +1,84 @@
+.bg-photo {
+    position: absolute;
+    background-image: url("/assets/images/registerbg3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    /* border: blanchedalmond solid 2px; */
+    border-radius: 20px;
+    text-align: center;
+    top:28%;
+    width: 419px;
+    height: 478px;
+    left: 39%;
+    right: 39%;
+    background-color: #212121;
+    box-shadow: 2px 7px 10px 15px #212121 ;
+}
+
+.button {
+    border-radius: 30px; 
+    border: 0;
+    padding: 10px;
+    width: 60%;
+    margin: 15px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+.button:hover {
+    font-weight: 900;
+}
+
+.form {
+    margin-top: 28px;
+}
+
+.input {
+    width: 40%;
+    border:white solid 5px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.label {
+    font-family: 'Cuprum', sans-serif;
+    font-size: large;
+}
+
+.picture {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+/* .title-center {
+    text-align: center;
+    border-radius: 20%;
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    width: 30%;
+    height: 15%;
+    top: 10%;
+}
+
+.title-style {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #212121;
+} */
